@@ -104,6 +104,10 @@ else:
 SUBSCRIPTION_REDIRECT = getattr(settings, "DJSTRIPE_SUBSCRIPTION_REDIRECT", "djstripe:subscribe")
 
 
+STRIPE_WEBHOOK_SIGNING_SECRET = getattr(settings, "STRIPE_WEBHOOK_SIGNING_SECRET", "")
+STRIPE_WEBHOOK_VERIFICATION_TOLERANCE = getattr(settings, "STRIPE_WEBHOOK_VERIFICATION_TOLERANCE", None)
+
+
 ZERO_DECIMAL_CURRENCIES = set([
     "bif", "clp", "djf", "gnf", "jpy", "kmf", "krw", "mga", "pyg", "rwf",
     "vnd", "vuv", "xaf", "xof", "xpf",

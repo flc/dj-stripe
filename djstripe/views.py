@@ -11,6 +11,7 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 import json
 import logging
 
+import stripe
 from django.contrib import messages
 from django.contrib.auth import logout as auth_logout
 from django.contrib.auth import REDIRECT_FIELD_NAME
@@ -120,6 +121,36 @@ class WebHook(View):
         """
         body = smart_str(request.body)
         data = json.loads(body)
+
+        # only verify webhooks if STRIPE_WEBHOOK_SIGNING_SECRET setting is provided
+        # for backward compatibility
+        signing_secret = djstripe_settings.STRIPE_WEBHOOK_SIGNING_SECRET
+        if signing_secret:
+            sig_header = request.META.get("HTTP_STRIPE_SIGNATURE")
+
+            tolerance = djstripe_settings.STRIPE_WEBHOOK_VERIFICATION_TOLERANCE
+            # verify event
+            try:
+                kwargs = {
+                    "api_key": djstripe_settings.STRIPE_SECRET_KEY,
+                }
+                # use default tolerance if tolerance is None (not specified)
+                if tolerance is not None:
+                    kwargs['tolerance'] = tolerance
+                event = stripe.Webhook.construct_event(
+                    body,
+                    sig_header,
+                    signing_secret,
+                    **kwargs
+                    )
+            except ValueError as e:
+                # Invalid payload
+                logger.exception("Invalid stripe webhook payload")
+                return HttpResponse(status=400)
+            except stripe.error.SignatureVerificationError as e:
+                # Invalid signature
+                logger.exception("Invalid stripe webhook signature")
+                return HttpResponse(status=400)
 
         if data['id'] == TEST_EVENT_ID:
             logger.info("Test webhook received: {}".format(data['type']))
