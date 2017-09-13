@@ -27,6 +27,31 @@ For more information on API versioning, see the `stripe documentation`_.
 .. _stripe documentation: https://stripe.com/docs/upgrades
 
 
+STRIPE_WEBHOOK_SIGNING_SECRET (='')
+===================================
+
+It is highly recommended that you enable webhook signature verification by providing your webhook signing secret.
+You can find the webhook signing secret value on your Stripe.com dashboard at section API -> Webhooks.
+
+If you don't provide any value for this setting, the signature of the webhooks will not be verified.
+
+For more information on Webhook signatures, see the `stripe documentation`_.
+
+.. _stripe documentation: https://stripe.com/docs/webhooks#signatures
+
+
+STRIPE_WEBHOOK_VERIFICATION_TOLERANCE (=None)
+=============================================
+
+Stripe includes a timestamp in the Stripe-Signature header. As this timestamp is part of the signed payload, it is also verified by the signature. The stripe library has a default tolerance of five minutes between the timestamp and the current time. You can change this by providing a value for this setting in seconds.
+
+If you don't provide a value for this setting, the stripe library's default tolerance value will be used, currently 300.
+
+For more information, see the `stripe documentation`_.
+
+.. _stripe documentation: https://stripe.com/docs/webhooks#replay-attacks
+
+
 DJSTRIPE_IDEMPOTENCY_KEY_CALLBACK (=djstripe.settings._get_idempotency_key)
 ===========================================================================
 
