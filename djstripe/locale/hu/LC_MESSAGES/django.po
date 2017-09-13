@@ -1,0 +1,271 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-30 20:45+0200\n"
+"PO-Revision-Date: 2017-09-12 16:13+0200\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: Zoltan Szalai <defaultdict@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: enums.py:62
+msgid "Invalid number"
+msgstr "Érvénytelen kártyaszám"
+
+#: enums.py:63
+msgid "Invalid expiration month"
+msgstr "Érvénytelen lejárati hónap"
+
+#: enums.py:64
+msgid "Invalid expiration year"
+msgstr "Érvénytelen lejárati év"
+
+#: enums.py:65
+msgid "Invalid security code"
+msgstr "Érvénytelen biztonsági kód"
+
+#: enums.py:66
+msgid "Invalid swipe data"
+msgstr "Érvénytelen swipe adat"
+
+#: enums.py:67
+msgid "Incorrect number"
+msgstr "Hibás kártyaszám"
+
+#: enums.py:68
+msgid "Expired card"
+msgstr "Lejárt kártya"
+
+#: enums.py:69
+msgid "Incorrect security code"
+msgstr "Hibás biztonsági kód"
+
+#: enums.py:70
+msgid "ZIP code failed validation"
+msgstr "Sikertelen irányítószám validáció"
+
+#: enums.py:71
+msgid "Card was declined"
+msgstr "Kártya elutasítva"
+
+#: enums.py:72
+msgid "No card being charged"
+msgstr "Nincs megterhelendő kártya"
+
+#: enums.py:73
+msgid "Processing error"
+msgstr "Feldolgozási hiba"
+
+#: enums.py:77
+msgid "Pass"
+msgstr "Sikeres"
+
+#: enums.py:78
+msgid "Fail"
+msgstr "Hibás"
+
+#: enums.py:79
+msgid "Unavailable"
+msgstr "Nem elérhető"
+
+#: enums.py:80
+msgid "Unchecked"
+msgstr "Nem vizsgált"
+
+#: enums.py:84
+msgid "Visa"
+msgstr "Visa"
+
+#: enums.py:85
+msgid "American Express"
+msgstr "American Express"
+
+#: enums.py:86
+msgid "MasterCard"
+msgstr "MasterCard"
+
+#: enums.py:87
+msgid "Discover"
+msgstr "Discover"
+
+#: enums.py:88
+msgid "JCB"
+msgstr "JCB"
+
+#: enums.py:89
+msgid "Diners Club"
+msgstr "Diners Club"
+
+#: enums.py:90 enums.py:97
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: enums.py:94
+msgid "Credit"
+msgstr "Hitel"
+
+#: enums.py:95
+msgid "Debit"
+msgstr "Betéti"
+
+#: enums.py:96
+msgid "Prepaid"
+msgstr "Előre fizetett"
+
+#: enums.py:101
+msgid "Apple Pay"
+msgstr ""
+
+#: enums.py:102
+msgid "Android Pay"
+msgstr "Android Pay"
+
+#: enums.py:106
+msgid "Succeeded"
+msgstr "Sikeres"
+
+#: enums.py:107 enums.py:143
+msgid "Pending"
+msgstr "Függőben lévő"
+
+#: enums.py:108 enums.py:146
+msgid "Failed"
+msgstr "Sikertelen"
+
+#: enums.py:112
+msgid "Once"
+msgstr "Egyszeri"
+
+#: enums.py:113
+msgid "Multi-month"
+msgstr "Ismétlődő"
+
+#: enums.py:114
+msgid "Forever"
+msgstr "Örökké"
+
+#: enums.py:123
+msgid "Bank account has been closed."
+msgstr "A bankszámlát bezárták."
+
+#: enums.py:124
+msgid "Bank account has been frozen."
+msgstr "A bankszámlát befagyasztották."
+
+#: enums.py:125
+msgid "Bank account has restrictions on payouts allowed."
+msgstr "A bankszámla korlátozza a kifizetéseket."
+
+#: enums.py:126
+msgid "Destination bank account has changed ownership."
+msgstr "A célbankszámla megváltoztatta a tulajdonjogát."
+
+#: enums.py:127
+msgid "Bank could not process payout."
+msgstr "A bank nem tudta feldolgozni a kifizetést."
+
+#: enums.py:128
+msgid "Debit transactions not approved on the bank account."
+msgstr ""
+
+#: enums.py:129
+msgid "Stripe account has insufficient funds."
+msgstr "A Stripe fióknak nincs elegedő fedezete."
+
+#: enums.py:130
+msgid "Invalid account number"
+msgstr "Érvénytelen számlaszám"
+
+#: enums.py:131
+msgid "Bank account does not support currency."
+msgstr "A bankszámla nem támogatja a pénznemet."
+
+#: enums.py:132
+msgid "Bank account could not be located."
+msgstr "Nem sikerült a bankszámlát azonosítani."
+
+#: enums.py:133
+msgid "Card no longer supported."
+msgstr "A kártya már nem támogatott."
+
+#: enums.py:137
+msgid "Standard"
+msgstr "Normál"
+
+#: enums.py:138
+msgid "Instant"
+msgstr "Azonnali"
+
+#: enums.py:142
+msgid "Paid"
+msgstr "Fizetett"
+
+#: enums.py:144
+msgid "In transit"
+msgstr "Átutalás alatt"
+
+#: enums.py:145 enums.py:172
+msgid "Canceled"
+msgstr "Megszüntetve"
+
+#: enums.py:150 enums.py:163
+msgid "Bank account"
+msgstr "Bankszámla"
+
+#: enums.py:151 enums.py:162
+msgid "Card"
+msgstr "Kártya"
+
+#: enums.py:155
+msgid "Day"
+msgstr "Nap"
+
+#: enums.py:156
+msgid "Week"
+msgstr "Hét"
+
+#: enums.py:157
+msgid "Month"
+msgstr "Hónap"
+
+#: enums.py:158
+msgid "Year"
+msgstr "Év"
+
+#: enums.py:164
+msgid "Bitcoin receiver"
+msgstr ""
+
+#: enums.py:165
+msgid "Alipay account"
+msgstr ""
+
+#: enums.py:169
+msgid "Trialing"
+msgstr "Próbaidőszak"
+
+#: enums.py:170
+msgid "Active"
+msgstr "Aktív"
+
+#: enums.py:171
+msgid "Past due"
+msgstr "Határidőn túl"
+
+#: enums.py:173
+msgid "Unpaid"
+msgstr "Nem fizetett"
+
+#: templates/djstripe/admin/change_form.html:8
+msgid "View on Stripe Dashboard"
+msgstr "Megtekintés a Stripe Dashboard-on"

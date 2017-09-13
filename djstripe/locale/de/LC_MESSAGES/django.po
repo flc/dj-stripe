@@ -1,0 +1,271 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-30 20:45+0200\n"
+"PO-Revision-Date: 2017-09-12 16:06+0200\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: Zoltan Szalai <defaultdict@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: enums.py:62
+msgid "Invalid number"
+msgstr "Ungültige Kreditkartennummer"
+
+#: enums.py:63
+msgid "Invalid expiration month"
+msgstr "Ungültige Gültigkeits-Monat"
+
+#: enums.py:64
+msgid "Invalid expiration year"
+msgstr "Ungültige Gültigkeits-Jahr"
+
+#: enums.py:65
+msgid "Invalid security code"
+msgstr "Ungültige Prüfziffer (CVC)"
+
+#: enums.py:66
+msgid "Invalid swipe data"
+msgstr ""
+
+#: enums.py:67
+msgid "Incorrect number"
+msgstr "Falsche Kartennummer"
+
+#: enums.py:68
+msgid "Expired card"
+msgstr "Abgelaufene Karte"
+
+#: enums.py:69
+msgid "Incorrect security code"
+msgstr "Falsche Prüfziffer (CVC) "
+
+#: enums.py:70
+msgid "ZIP code failed validation"
+msgstr ""
+
+#: enums.py:71
+msgid "Card was declined"
+msgstr "Karte wurde abgelehnt"
+
+#: enums.py:72
+msgid "No card being charged"
+msgstr "Keine Karte wird geladen"
+
+#: enums.py:73
+msgid "Processing error"
+msgstr "Verarbeitungsfehler"
+
+#: enums.py:77
+msgid "Pass"
+msgstr ""
+
+#: enums.py:78
+msgid "Fail"
+msgstr ""
+
+#: enums.py:79
+msgid "Unavailable"
+msgstr ""
+
+#: enums.py:80
+msgid "Unchecked"
+msgstr ""
+
+#: enums.py:84
+msgid "Visa"
+msgstr ""
+
+#: enums.py:85
+msgid "American Express"
+msgstr ""
+
+#: enums.py:86
+msgid "MasterCard"
+msgstr ""
+
+#: enums.py:87
+msgid "Discover"
+msgstr ""
+
+#: enums.py:88
+msgid "JCB"
+msgstr ""
+
+#: enums.py:89
+msgid "Diners Club"
+msgstr ""
+
+#: enums.py:90 enums.py:97
+msgid "Unknown"
+msgstr ""
+
+#: enums.py:94
+msgid "Credit"
+msgstr ""
+
+#: enums.py:95
+msgid "Debit"
+msgstr ""
+
+#: enums.py:96
+msgid "Prepaid"
+msgstr ""
+
+#: enums.py:101
+msgid "Apple Pay"
+msgstr ""
+
+#: enums.py:102
+msgid "Android Pay"
+msgstr ""
+
+#: enums.py:106
+msgid "Succeeded"
+msgstr ""
+
+#: enums.py:107 enums.py:143
+msgid "Pending"
+msgstr ""
+
+#: enums.py:108 enums.py:146
+msgid "Failed"
+msgstr ""
+
+#: enums.py:112
+msgid "Once"
+msgstr ""
+
+#: enums.py:113
+msgid "Multi-month"
+msgstr ""
+
+#: enums.py:114
+msgid "Forever"
+msgstr ""
+
+#: enums.py:123
+msgid "Bank account has been closed."
+msgstr ""
+
+#: enums.py:124
+msgid "Bank account has been frozen."
+msgstr ""
+
+#: enums.py:125
+msgid "Bank account has restrictions on payouts allowed."
+msgstr ""
+
+#: enums.py:126
+msgid "Destination bank account has changed ownership."
+msgstr ""
+
+#: enums.py:127
+msgid "Bank could not process payout."
+msgstr ""
+
+#: enums.py:128
+msgid "Debit transactions not approved on the bank account."
+msgstr ""
+
+#: enums.py:129
+msgid "Stripe account has insufficient funds."
+msgstr ""
+
+#: enums.py:130
+msgid "Invalid account number"
+msgstr ""
+
+#: enums.py:131
+msgid "Bank account does not support currency."
+msgstr ""
+
+#: enums.py:132
+msgid "Bank account could not be located."
+msgstr ""
+
+#: enums.py:133
+msgid "Card no longer supported."
+msgstr "Karte nicht mehr unterstützt."
+
+#: enums.py:137
+msgid "Standard"
+msgstr ""
+
+#: enums.py:138
+msgid "Instant"
+msgstr ""
+
+#: enums.py:142
+msgid "Paid"
+msgstr "Bezahlt"
+
+#: enums.py:144
+msgid "In transit"
+msgstr ""
+
+#: enums.py:145 enums.py:172
+msgid "Canceled"
+msgstr ""
+
+#: enums.py:150 enums.py:163
+msgid "Bank account"
+msgstr ""
+
+#: enums.py:151 enums.py:162
+msgid "Card"
+msgstr "Karte"
+
+#: enums.py:155
+msgid "Day"
+msgstr "Tag"
+
+#: enums.py:156
+msgid "Week"
+msgstr "Woche"
+
+#: enums.py:157
+msgid "Month"
+msgstr "Monat"
+
+#: enums.py:158
+msgid "Year"
+msgstr "Jahr"
+
+#: enums.py:164
+msgid "Bitcoin receiver"
+msgstr ""
+
+#: enums.py:165
+msgid "Alipay account"
+msgstr ""
+
+#: enums.py:169
+msgid "Trialing"
+msgstr ""
+
+#: enums.py:170
+msgid "Active"
+msgstr ""
+
+#: enums.py:171
+msgid "Past due"
+msgstr ""
+
+#: enums.py:173
+msgid "Unpaid"
+msgstr "Unbezahlt"
+
+#: templates/djstripe/admin/change_form.html:8
+msgid "View on Stripe Dashboard"
+msgstr ""
