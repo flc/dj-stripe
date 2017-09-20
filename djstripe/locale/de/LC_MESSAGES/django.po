@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-30 20:45+0200\n"
-"PO-Revision-Date: 2017-09-12 16:06+0200\n"
+"POT-Creation-Date: 2017-09-20 10:51+0200\n"
+"PO-Revision-Date: 2017-09-20 10:47+0200\n"
+"Last-Translator: Zoltan Szalai <defaultdict@gmail.com>\n"
+"Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: Zoltan Szalai <defaultdict@gmail.com>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 1.8.7.1\n"
 
 #: enums.py:62
@@ -52,7 +52,7 @@ msgstr "Falsche Prüfziffer (CVC) "
 
 #: enums.py:70
 msgid "ZIP code failed validation"
-msgstr ""
+msgstr "Erfolglose PLZ-Bestätigung"
 
 #: enums.py:71
 msgid "Card was declined"
@@ -68,59 +68,59 @@ msgstr "Verarbeitungsfehler"
 
 #: enums.py:77
 msgid "Pass"
-msgstr ""
+msgstr "Erfolgreich"
 
 #: enums.py:78
 msgid "Fail"
-msgstr ""
+msgstr "Fehler"
 
 #: enums.py:79
 msgid "Unavailable"
-msgstr ""
+msgstr "Unerreichbar"
 
 #: enums.py:80
 msgid "Unchecked"
-msgstr ""
+msgstr "Ungeprüft"
 
 #: enums.py:84
 msgid "Visa"
-msgstr ""
+msgstr "Visa"
 
 #: enums.py:85
 msgid "American Express"
-msgstr ""
+msgstr "American Express"
 
 #: enums.py:86
 msgid "MasterCard"
-msgstr ""
+msgstr "MasterCard"
 
 #: enums.py:87
 msgid "Discover"
-msgstr ""
+msgstr "Discover"
 
 #: enums.py:88
 msgid "JCB"
-msgstr ""
+msgstr "JCB"
 
 #: enums.py:89
 msgid "Diners Club"
-msgstr ""
+msgstr "Diners Club"
 
 #: enums.py:90 enums.py:97
 msgid "Unknown"
-msgstr ""
+msgstr "Unbekannt"
 
 #: enums.py:94
 msgid "Credit"
-msgstr ""
+msgstr "Kredit"
 
 #: enums.py:95
 msgid "Debit"
-msgstr ""
+msgstr "Lastschrift"
 
 #: enums.py:96
 msgid "Prepaid"
-msgstr ""
+msgstr "Vorausgezahlt"
 
 #: enums.py:101
 msgid "Apple Pay"
@@ -132,67 +132,67 @@ msgstr ""
 
 #: enums.py:106
 msgid "Succeeded"
-msgstr ""
+msgstr "Erfolgreich"
 
 #: enums.py:107 enums.py:143
 msgid "Pending"
-msgstr ""
+msgstr "Ausstehend"
 
 #: enums.py:108 enums.py:146
 msgid "Failed"
-msgstr ""
+msgstr "Erfolglos"
 
 #: enums.py:112
 msgid "Once"
-msgstr ""
+msgstr "Einmalig"
 
 #: enums.py:113
 msgid "Multi-month"
-msgstr ""
+msgstr "Wiederholen"
 
 #: enums.py:114
 msgid "Forever"
-msgstr ""
+msgstr "Ewig"
 
 #: enums.py:123
 msgid "Bank account has been closed."
-msgstr ""
+msgstr "Das Bankkonto wurde geschlossen."
 
 #: enums.py:124
 msgid "Bank account has been frozen."
-msgstr ""
+msgstr "Das Bankkonto wurde gesperrt."
 
 #: enums.py:125
 msgid "Bank account has restrictions on payouts allowed."
-msgstr ""
+msgstr "Das Bankkonto verhindert die Auszahlungen."
 
 #: enums.py:126
 msgid "Destination bank account has changed ownership."
-msgstr ""
+msgstr " Der Besitzer des Zielkontos änderte sich."
 
 #: enums.py:127
 msgid "Bank could not process payout."
-msgstr ""
+msgstr "Die Bank konnte die Auszahlung nicht verarbeiten."
 
 #: enums.py:128
 msgid "Debit transactions not approved on the bank account."
-msgstr ""
+msgstr "Auf dem Bankkonto ist die Bankkartenzahlung nicht akzeptiert."
 
 #: enums.py:129
 msgid "Stripe account has insufficient funds."
-msgstr ""
+msgstr "Stripekonto hat nicht genung Geldmittel."
 
 #: enums.py:130
 msgid "Invalid account number"
-msgstr ""
+msgstr "Ungültige Kontonummer"
 
 #: enums.py:131
 msgid "Bank account does not support currency."
-msgstr ""
+msgstr "Das Bankkonto fördert die Währung nicht."
 
 #: enums.py:132
 msgid "Bank account could not be located."
-msgstr ""
+msgstr "Das Bankkonto konnte nicht indentifiziert werden."
 
 #: enums.py:133
 msgid "Card no longer supported."
@@ -200,11 +200,11 @@ msgstr "Karte nicht mehr unterstützt."
 
 #: enums.py:137
 msgid "Standard"
-msgstr ""
+msgstr "Standard"
 
 #: enums.py:138
 msgid "Instant"
-msgstr ""
+msgstr "Sofortig"
 
 #: enums.py:142
 msgid "Paid"
@@ -212,15 +212,15 @@ msgstr "Bezahlt"
 
 #: enums.py:144
 msgid "In transit"
-msgstr ""
+msgstr "Unter Überweisung"
 
 #: enums.py:145 enums.py:172
 msgid "Canceled"
-msgstr ""
+msgstr "Storniert"
 
 #: enums.py:150 enums.py:163
 msgid "Bank account"
-msgstr ""
+msgstr "Bankkonto"
 
 #: enums.py:151 enums.py:162
 msgid "Card"
@@ -252,15 +252,15 @@ msgstr ""
 
 #: enums.py:169
 msgid "Trialing"
-msgstr ""
+msgstr "Probezeit"
 
 #: enums.py:170
 msgid "Active"
-msgstr ""
+msgstr "Aktiv"
 
 #: enums.py:171
 msgid "Past due"
-msgstr ""
+msgstr "Nach Frist"
 
 #: enums.py:173
 msgid "Unpaid"
@@ -268,4 +268,4 @@ msgstr "Unbezahlt"
 
 #: templates/djstripe/admin/change_form.html:8
 msgid "View on Stripe Dashboard"
-msgstr ""
+msgstr "Sehe an Stripe Dashboard"
